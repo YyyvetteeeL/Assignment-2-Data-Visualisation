@@ -10,8 +10,11 @@ would do, silently drop the rows it could not parse? -->
 
 ## 9.17
 1.I initially wanted to choose a typhoon because it is related to one of my visual novels. However, I realized that I didn’t have any particularly interesting ideas for visualizing typhoon data. After some thought, I decided to drop the typhoon idea and choose something that inspired me more: a heavy rainstorm across the whole of Hong Kong.
-
 2.I then chose a Hong Kong rainstorm to explore how rainfall changes across space and time.I selected the 18 June 2026 rainstorm and decided to investigate its historical gridded data.
+
+## 9.24
+1.I collected the gridded rainfall nowcast data for the whole day of June 18, with data available every 15 minutes. I inspected the data to understand how the rainfall changed across Hong Kong throughout the day.
+2.However, using all the data would create too many frames. After comparing the rainfall patterns, I decided to focus on the more active period from 06:00 to 12:00 and use a 30-minute interval, keeping the visualisation manageable while still showing the changes over time.
 
 ## Tools
 
