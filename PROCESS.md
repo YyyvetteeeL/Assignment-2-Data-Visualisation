@@ -16,6 +16,9 @@ would do, silently drop the rows it could not parse? -->
 1.I collected the gridded rainfall nowcast data for the whole day of June 18, with data available every 15 minutes. I inspected the data to understand how the rainfall changed across Hong Kong throughout the day.
 2.However, using all the data would create too many frames. After comparing the rainfall patterns, I decided to focus on the more active period from 06:00 to 12:00 and use a 30-minute interval, keeping the visualisation manageable while still showing the changes over time.
 
+## 9.25
+I created a first visualisation using latitude and longitude as spatial positions and rainfall intensity as colour. The result showed clear rainfall patterns across the grid, but the large spatial range made Hong Kong itself difficult to identify.
+
 ## Tools
 
 ## Kept
