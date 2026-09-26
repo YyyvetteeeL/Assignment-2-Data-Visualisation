@@ -1,30 +1,22 @@
 # The phenomenon
 
-<!-- This is the SD5913 assignment 2 template. Everything in this file is yours to
-replace, and the check counts words: comments like this one are not words, so
-delete each one as you write. Start with the heading: name the phenomenon.
+Hong Kong Rainfall on 18 June 2026 6:00-12:00
 
-Then, in this order, at least 150 words in total.
-
-New to folders, paths, or the files here whose names start with a dot? Read
-https://github.com/sd5913/pfad/blob/2026/reference/files.md first. Ten minutes. -->
-
-![what the picture is](out/plot.png)
+out/rainfall_accumulation.gif
+（as well as all deliverables produced during the version iteration process）
 
 ## The phenomenon
 
-<!-- What goes up and down, and why you looked at it. -->
+On 18 June 2026, a heavy rainstorm affected Hong Kong. I was interested in how the predicted rainfall pattern changed across different locations and over time. Instead of showing rainfall as a conventional weather map, I wanted to visualize the accumulation of forecast rainfall as a growing spatial pattern. I focused on the period from 06:00 to 12:00, using one frame every 30 minutes.
 
 ## The source
 
-<!-- A link to the page or endpoint the file came from, and one line on what is in
-the file: how many rows, what a row means, what the units are. -->
+The data comes from the Hong Kong Observatory's Gridded Rainfall Nowcast dataset:
+https://data.gov.hk/en-data/dataset/hko-gridded-rainfall-nowcast
 
 ## What the picture shows
 
-<!-- Two or three sentences. Including what it hides: every transformation throws
-something away, and naming what yours threw away is the easiest way to sound like
-you know what you did. -->
+The visualization represents each spatial location as a particle. Higher cumulative forecast rainfall is shown by larger and darker particles, so the pattern gradually builds from 06:00 to 12:00. The visualization hides the original four forecast periods at each location and does not show geographic boundaries, roads, or other map information. It therefore emphasizes the spatial accumulation pattern rather than precise geographic reference or individual forecast values.
 
 ## Run it
 
