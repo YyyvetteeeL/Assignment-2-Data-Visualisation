@@ -27,9 +27,21 @@ Visual Performance Tuning, You can see the results of several debugging runs in 
 5.OMG Some particles appeared to contain smaller circles. I found that multiple forecast values were being plotted at the same location.
 6.I kept one forecast value per location and refined the particle field. Higher rainfall now appears as larger and darker particles.
 
+## 9.26
+
+The original animation refreshed the rainfall field every 30 minutes, which made the change feel discontinuous. I changed the visualization to accumulate rainfall over time, so each particle retains the values from previous frames.
+The final animation visualizes rainfall as a growing particle field, showing how forecast rainfall accumulates across Hong Kong from 06:00 to 12:00 on 18 June 2026.
 
 ## Tools
 
+I used ChatGPT for brainstorming, coding, and debugging. 
+I used it to explore different visualization approaches, write and revise the Python code, and troubleshoot errors during the process.
+
 ## Kept
 
+I kept the cumulative animation idea suggested during the brainstorming process. 
+
 ## Rejected
+
+I rejected the idea of interpolating between frames to create smoother movement. 
+
