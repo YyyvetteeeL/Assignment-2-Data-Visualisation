@@ -3,7 +3,6 @@
 Hong Kong Rainfall on 18 June 2026 6:00-12:00
 
 out/rainfall_accumulation.gif
-（as well as all deliverables produced during the version iteration process）
 
 ## The phenomenon
 
